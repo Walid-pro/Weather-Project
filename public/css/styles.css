@@ -1,0 +1,65 @@
+body {
+  background-image: linear-gradient(120deg,#6BC5D2, #D2FAFB);
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  min-height: 1000px;
+  font-weight: bold;
+}
+
+
+h1 {
+  color: white
+}
+
+label {
+  color: white;
+}
+i {
+  color: #FF9D9D;
+}
+
+p {
+  font-size: 6rem;
+}
+
+footer {
+  padding-top: 100px;
+  color: grey;
+}
+
+ .title {
+   color:#0A81AB;
+   font-size: 3rem;
+ }
+ .search-bar {
+   background-color: #0A81AB;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px grey;
+ }
+
+.btn {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #6BC5D2;
+  color: white;
+}
+
+
+input::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+hr.crd {
+  border: 2px solid white;
+  border-style: inset;
+}
+.card {
+  background: linear-gradient(100deg,#51C4D3,  #0A81AB);
+  color: white;
+  box-shadow: 5px 5px 10px grey;
+}

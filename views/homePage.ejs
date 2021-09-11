@@ -1,0 +1,31 @@
+<%- include("partials/header"); -%>
+
+
+<div class="container">
+<img src="img/weather.png" style="width:30rem" alt="">
+<div class="row pb-3">
+    <p class="title">Get real time weather data!<p>
+</div>
+</div>
+
+<div class="container search-bar p-4 col-8">
+  <form class="" action="/" method="post">
+    <div class="row justify-content-center p-3">
+        <div class="col-auto pt-2">
+          <label for="cityInput">City Name</label>
+        </div>
+        <div class="col-4">
+          <input id="cityInput" type="text" class="form-control" style="border-radius: 10px" name="cityName" placeholder="Type here...">
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-light" name="button">Search</button>
+        </div>
+    </div>
+    </form>
+
+  </div>
+
+
+
+
+<%- include("partials/footer"); -%>
